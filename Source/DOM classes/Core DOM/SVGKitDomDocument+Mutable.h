@@ -1,4 +1,4 @@
-#import "Document.h"
+#import "SVGKitDomDocument.h"
 
 @interface Document ()
 

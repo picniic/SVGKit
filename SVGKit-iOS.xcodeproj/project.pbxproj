@@ -46,9 +46,9 @@
 		321EAA882171ED6900640504 /* CSSValue_ForSubclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 66988DD1168A13BC00EC93C7 /* CSSValue_ForSubclasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		321EAA892171ED6900640504 /* CSSValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 66988DB5168A004D00EC93C7 /* CSSValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		321EAA8A2171ED6900640504 /* CSSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66988DB6168A004D00EC93C7 /* CSSValue.m */; };
-		321EAA8B2171ED6900640504 /* Document+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863181688C2770059C9C4 /* Document+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		321EAA8C2171ED6900640504 /* Document.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863191688C2770059C9C4 /* Document.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		321EAA8D2171ED6900640504 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8631A1688C2770059C9C4 /* Document.m */; };
+		321EAA8B2171ED6900640504 /* SVGKitDomDocument+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863181688C2770059C9C4 /* SVGKitDomDocument+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321EAA8C2171ED6900640504 /* SVGKitDomDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863191688C2770059C9C4 /* SVGKitDomDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321EAA8D2171ED6900640504 /* SVGKitDomDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8631A1688C2770059C9C4 /* SVGKitDomDocument.m */; };
 		321EAA8E2171ED6900640504 /* DocumentCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = 666674BD168A536C00486B68 /* DocumentCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		321EAA8F2171ED6900640504 /* DocumentStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 666674BE168A551300486B68 /* DocumentStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		321EAA902171ED6900640504 /* StyleSheetList+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 666674CB168A58D000486B68 /* StyleSheetList+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -369,9 +369,9 @@
 		66E863A61688C2780059C9C4 /* CharacterData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E863151688C2770059C9C4 /* CharacterData.m */; };
 		66E863A71688C2780059C9C4 /* Comment.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863161688C2770059C9C4 /* Comment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66E863A81688C2780059C9C4 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E863171688C2770059C9C4 /* Comment.m */; };
-		66E863A91688C2780059C9C4 /* Document+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863181688C2770059C9C4 /* Document+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66E863AA1688C2780059C9C4 /* Document.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863191688C2770059C9C4 /* Document.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66E863AB1688C2780059C9C4 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8631A1688C2770059C9C4 /* Document.m */; };
+		66E863A91688C2780059C9C4 /* SVGKitDomDocument+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863181688C2770059C9C4 /* SVGKitDomDocument+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E863AA1688C2780059C9C4 /* SVGKitDomDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863191688C2770059C9C4 /* SVGKitDomDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66E863AB1688C2780059C9C4 /* SVGKitDomDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8631A1688C2770059C9C4 /* SVGKitDomDocument.m */; };
 		66E863AC1688C2780059C9C4 /* DocumentFragment.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8631B1688C2770059C9C4 /* DocumentFragment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66E863AD1688C2780059C9C4 /* DocumentFragment.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8631C1688C2770059C9C4 /* DocumentFragment.m */; };
 		66E863AE1688C2780059C9C4 /* DocumentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E8631D1688C2770059C9C4 /* DocumentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -530,8 +530,8 @@
 		825CDB041BDA5057003C1C12 /* CSSValueList.h in Headers */ = {isa = PBXBuildFile; fileRef = 66988DCD168A129500EC93C7 /* CSSValueList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		825CDB051BDA5057003C1C12 /* CSSValue_ForSubclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 66988DD1168A13BC00EC93C7 /* CSSValue_ForSubclasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		825CDB061BDA5057003C1C12 /* CSSValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 66988DB5168A004D00EC93C7 /* CSSValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		825CDB071BDA5057003C1C12 /* Document+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863181688C2770059C9C4 /* Document+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		825CDB081BDA5057003C1C12 /* Document.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863191688C2770059C9C4 /* Document.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825CDB071BDA5057003C1C12 /* SVGKitDomDocument+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863181688C2770059C9C4 /* SVGKitDomDocument+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825CDB081BDA5057003C1C12 /* SVGKitDomDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863191688C2770059C9C4 /* SVGKitDomDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		825CDB091BDA5057003C1C12 /* DocumentCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = 666674BD168A536C00486B68 /* DocumentCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		825CDB0A1BDA5057003C1C12 /* DocumentStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 666674BE168A551300486B68 /* DocumentStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		825CDB0B1BDA5058003C1C12 /* StyleSheetList+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 666674CB168A58D000486B68 /* StyleSheetList+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -657,8 +657,8 @@
 		825CDB841BDA50B3003C1C12 /* CSSValueList.h in Headers */ = {isa = PBXBuildFile; fileRef = 66988DCD168A129500EC93C7 /* CSSValueList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		825CDB851BDA50B3003C1C12 /* CSSValue_ForSubclasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 66988DD1168A13BC00EC93C7 /* CSSValue_ForSubclasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		825CDB861BDA50B3003C1C12 /* CSSValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 66988DB5168A004D00EC93C7 /* CSSValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		825CDB871BDA50B3003C1C12 /* Document+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863181688C2770059C9C4 /* Document+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		825CDB881BDA50B3003C1C12 /* Document.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863191688C2770059C9C4 /* Document.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825CDB871BDA50B3003C1C12 /* SVGKitDomDocument+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863181688C2770059C9C4 /* SVGKitDomDocument+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825CDB881BDA50B3003C1C12 /* SVGKitDomDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E863191688C2770059C9C4 /* SVGKitDomDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		825CDB891BDA50B3003C1C12 /* DocumentCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = 666674BD168A536C00486B68 /* DocumentCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		825CDB8A1BDA50B3003C1C12 /* DocumentStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 666674BE168A551300486B68 /* DocumentStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		825CDB8B1BDA50B3003C1C12 /* StyleSheetList+Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 666674CB168A58D000486B68 /* StyleSheetList+Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -781,7 +781,7 @@
 		825CDC011BDA511C003C1C12 /* CSSPrimitiveValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66988DCA168A0A2300EC93C7 /* CSSPrimitiveValue.m */; };
 		825CDC021BDA511C003C1C12 /* CSSValueList.m in Sources */ = {isa = PBXBuildFile; fileRef = 66988DCE168A129500EC93C7 /* CSSValueList.m */; };
 		825CDC031BDA511C003C1C12 /* CSSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66988DB6168A004D00EC93C7 /* CSSValue.m */; };
-		825CDC041BDA511C003C1C12 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8631A1688C2770059C9C4 /* Document.m */; };
+		825CDC041BDA511C003C1C12 /* SVGKitDomDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8631A1688C2770059C9C4 /* SVGKitDomDocument.m */; };
 		825CDC051BDA511C003C1C12 /* StyleSheetList.m in Sources */ = {isa = PBXBuildFile; fileRef = 666674C0168A556300486B68 /* StyleSheetList.m */; };
 		825CDC061BDA511C003C1C12 /* StyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 666674C4168A55AE00486B68 /* StyleSheet.m */; };
 		825CDC071BDA511C003C1C12 /* MediaList.m in Sources */ = {isa = PBXBuildFile; fileRef = 666674C8168A561B00486B68 /* MediaList.m */; };
@@ -880,7 +880,7 @@
 		825CDC651BDA5144003C1C12 /* CSSPrimitiveValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66988DCA168A0A2300EC93C7 /* CSSPrimitiveValue.m */; };
 		825CDC661BDA5144003C1C12 /* CSSValueList.m in Sources */ = {isa = PBXBuildFile; fileRef = 66988DCE168A129500EC93C7 /* CSSValueList.m */; };
 		825CDC671BDA5144003C1C12 /* CSSValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 66988DB6168A004D00EC93C7 /* CSSValue.m */; };
-		825CDC681BDA5144003C1C12 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8631A1688C2770059C9C4 /* Document.m */; };
+		825CDC681BDA5144003C1C12 /* SVGKitDomDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E8631A1688C2770059C9C4 /* SVGKitDomDocument.m */; };
 		825CDC691BDA5144003C1C12 /* StyleSheetList.m in Sources */ = {isa = PBXBuildFile; fileRef = 666674C0168A556300486B68 /* StyleSheetList.m */; };
 		825CDC6A1BDA5144003C1C12 /* StyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 666674C4168A55AE00486B68 /* StyleSheet.m */; };
 		825CDC6B1BDA5144003C1C12 /* MediaList.m in Sources */ = {isa = PBXBuildFile; fileRef = 666674C8168A561B00486B68 /* MediaList.m */; };
@@ -1154,9 +1154,9 @@
 		66E863151688C2770059C9C4 /* CharacterData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterData.m; sourceTree = "<group>"; };
 		66E863161688C2770059C9C4 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
 		66E863171688C2770059C9C4 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
-		66E863181688C2770059C9C4 /* Document+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Document+Mutable.h"; sourceTree = "<group>"; };
-		66E863191688C2770059C9C4 /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		66E8631A1688C2770059C9C4 /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Document.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		66E863181688C2770059C9C4 /* SVGKitDomDocument+Mutable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVGKitDomDocument+Mutable.h"; sourceTree = "<group>"; };
+		66E863191688C2770059C9C4 /* SVGKitDomDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVGKitDomDocument.h; sourceTree = "<group>"; };
+		66E8631A1688C2770059C9C4 /* SVGKitDomDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SVGKitDomDocument.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		66E8631B1688C2770059C9C4 /* DocumentFragment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentFragment.h; sourceTree = "<group>"; };
 		66E8631C1688C2770059C9C4 /* DocumentFragment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentFragment.m; sourceTree = "<group>"; };
 		66E8631D1688C2770059C9C4 /* DocumentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentType.h; sourceTree = "<group>"; };
@@ -1703,9 +1703,9 @@
 				66988DD1168A13BC00EC93C7 /* CSSValue_ForSubclasses.h */,
 				66988DB5168A004D00EC93C7 /* CSSValue.h */,
 				66988DB6168A004D00EC93C7 /* CSSValue.m */,
-				66E863181688C2770059C9C4 /* Document+Mutable.h */,
-				66E863191688C2770059C9C4 /* Document.h */,
-				66E8631A1688C2770059C9C4 /* Document.m */,
+				66E863181688C2770059C9C4 /* SVGKitDomDocument+Mutable.h */,
+				66E863191688C2770059C9C4 /* SVGKitDomDocument.h */,
+				66E8631A1688C2770059C9C4 /* SVGKitDomDocument.m */,
 				666674BD168A536C00486B68 /* DocumentCSS.h */,
 				666674BE168A551300486B68 /* DocumentStyle.h */,
 				666674CB168A58D000486B68 /* StyleSheetList+Mutable.h */,
@@ -2000,7 +2000,7 @@
 				321EAAAF2171ED6F00640504 /* SVGAngle.h in Headers */,
 				321EAAD52171ED6F00640504 /* SVGHelperUtilities.h in Headers */,
 				321EAAF42171ED7E00640504 /* SVGLineElement.h in Headers */,
-				321EAA8B2171ED6900640504 /* Document+Mutable.h in Headers */,
+				321EAA8B2171ED6900640504 /* SVGKitDomDocument+Mutable.h in Headers */,
 				321EAA972171ED6900640504 /* DocumentFragment.h in Headers */,
 				321EAAB52171ED6F00640504 /* SVGDefsElement.h in Headers */,
 				321EAAE02171ED7E00640504 /* SVGGradientElement.h in Headers */,
@@ -2013,7 +2013,7 @@
 				321EAACC2171ED6F00640504 /* SVGRect.h in Headers */,
 				321EAB382171ED9600640504 /* CAShapeLayerWithHitTest.h in Headers */,
 				321EAAA72171ED6900640504 /* NodeList+Mutable.h in Headers */,
-				321EAA8C2171ED6900640504 /* Document.h in Headers */,
+				321EAA8C2171ED6900640504 /* SVGKitDomDocument.h in Headers */,
 				321EAAB12171ED6F00640504 /* SVGAnimatedPreserveAspectRatio.h in Headers */,
 				321EAA722171ED6900640504 /* CDATASection.h in Headers */,
 				321EAAC02171ED6F00640504 /* SVGGElement.h in Headers */,
@@ -2113,8 +2113,8 @@
 				32D3D5DF2176E01400ED20D8 /* SVGRadialGradientElement.h in Headers */,
 				66E863A51688C2780059C9C4 /* CharacterData.h in Headers */,
 				66E863A71688C2780059C9C4 /* Comment.h in Headers */,
-				66E863A91688C2780059C9C4 /* Document+Mutable.h in Headers */,
-				66E863AA1688C2780059C9C4 /* Document.h in Headers */,
+				66E863A91688C2780059C9C4 /* SVGKitDomDocument+Mutable.h in Headers */,
+				66E863AA1688C2780059C9C4 /* SVGKitDomDocument.h in Headers */,
 				66372EEE1695F16A008C6C56 /* DocumentCSS.h in Headers */,
 				66E863AC1688C2780059C9C4 /* DocumentFragment.h in Headers */,
 				66372EEF1695F17F008C6C56 /* DocumentStyle.h in Headers */,
@@ -2258,9 +2258,9 @@
 				825CDB051BDA5057003C1C12 /* CSSValue_ForSubclasses.h in Headers */,
 				825CDB061BDA5057003C1C12 /* CSSValue.h in Headers */,
 				32D3D5DB2176E00E00ED20D8 /* SVGLinearGradientElement.h in Headers */,
-				825CDB071BDA5057003C1C12 /* Document+Mutable.h in Headers */,
+				825CDB071BDA5057003C1C12 /* SVGKitDomDocument+Mutable.h in Headers */,
 				32C4891F21916F3D007B1F29 /* SVGTextLayer.h in Headers */,
-				825CDB081BDA5057003C1C12 /* Document.h in Headers */,
+				825CDB081BDA5057003C1C12 /* SVGKitDomDocument.h in Headers */,
 				825CDB091BDA5057003C1C12 /* DocumentCSS.h in Headers */,
 				825CDB0A1BDA5057003C1C12 /* DocumentStyle.h in Headers */,
 				825CDB0B1BDA5058003C1C12 /* StyleSheetList+Mutable.h in Headers */,
@@ -2398,9 +2398,9 @@
 				825CDB851BDA50B3003C1C12 /* CSSValue_ForSubclasses.h in Headers */,
 				825CDB861BDA50B3003C1C12 /* CSSValue.h in Headers */,
 				32D3D5DC2176E00E00ED20D8 /* SVGLinearGradientElement.h in Headers */,
-				825CDB871BDA50B3003C1C12 /* Document+Mutable.h in Headers */,
+				825CDB871BDA50B3003C1C12 /* SVGKitDomDocument+Mutable.h in Headers */,
 				32C4892021916F3D007B1F29 /* SVGTextLayer.h in Headers */,
-				825CDB881BDA50B3003C1C12 /* Document.h in Headers */,
+				825CDB881BDA50B3003C1C12 /* SVGKitDomDocument.h in Headers */,
 				825CDB891BDA50B3003C1C12 /* DocumentCSS.h in Headers */,
 				825CDB8A1BDA50B3003C1C12 /* DocumentStyle.h in Headers */,
 				825CDB8B1BDA50B3003C1C12 /* StyleSheetList+Mutable.h in Headers */,
@@ -2883,7 +2883,7 @@
 				321EAAF72171ED7E00640504 /* SVGPathElement.m in Sources */,
 				321EAA9C2171ED6900640504 /* DOMHelperUtilities.m in Sources */,
 				321EAABB2171ED6F00640504 /* SVGElementInstance.m in Sources */,
-				321EAA8D2171ED6900640504 /* Document.m in Sources */,
+				321EAA8D2171ED6900640504 /* SVGKitDomDocument.m in Sources */,
 				321EAB352171ED9600640504 /* CAShapeLayerWithClipRender.m in Sources */,
 				321EAACD2171ED6F00640504 /* SVGRect.m in Sources */,
 				321EAB022171ED7E00640504 /* SVGSVGElement.m in Sources */,
@@ -2933,7 +2933,7 @@
 				66E863A41688C2780059C9C4 /* CDATASection.m in Sources */,
 				66E863A61688C2780059C9C4 /* CharacterData.m in Sources */,
 				66E863A81688C2780059C9C4 /* Comment.m in Sources */,
-				66E863AB1688C2780059C9C4 /* Document.m in Sources */,
+				66E863AB1688C2780059C9C4 /* SVGKitDomDocument.m in Sources */,
 				32C4892221916F3D007B1F29 /* SVGTextLayer.m in Sources */,
 				66E863AD1688C2780059C9C4 /* DocumentFragment.m in Sources */,
 				66E863AF1688C2780059C9C4 /* DocumentType.m in Sources */,
@@ -3051,7 +3051,7 @@
 				825CDC011BDA511C003C1C12 /* CSSPrimitiveValue.m in Sources */,
 				825CDC021BDA511C003C1C12 /* CSSValueList.m in Sources */,
 				825CDC031BDA511C003C1C12 /* CSSValue.m in Sources */,
-				825CDC041BDA511C003C1C12 /* Document.m in Sources */,
+				825CDC041BDA511C003C1C12 /* SVGKitDomDocument.m in Sources */,
 				825CDC051BDA511C003C1C12 /* StyleSheetList.m in Sources */,
 				825CDC061BDA511C003C1C12 /* StyleSheet.m in Sources */,
 				825CDC071BDA511C003C1C12 /* MediaList.m in Sources */,
@@ -3169,7 +3169,7 @@
 				825CDC651BDA5144003C1C12 /* CSSPrimitiveValue.m in Sources */,
 				825CDC661BDA5144003C1C12 /* CSSValueList.m in Sources */,
 				825CDC671BDA5144003C1C12 /* CSSValue.m in Sources */,
-				825CDC681BDA5144003C1C12 /* Document.m in Sources */,
+				825CDC681BDA5144003C1C12 /* SVGKitDomDocument.m in Sources */,
 				825CDC691BDA5144003C1C12 /* StyleSheetList.m in Sources */,
 				825CDC6A1BDA5144003C1C12 /* StyleSheet.m in Sources */,
 				825CDC6B1BDA5144003C1C12 /* MediaList.m in Sources */,

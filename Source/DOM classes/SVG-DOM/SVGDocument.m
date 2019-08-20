@@ -6,7 +6,7 @@
  http://www.w3.org/TR/SVG11/struct.html#InterfaceSVGDocument
  */
 
-#import "Document+Mutable.h"
+#import "SVGKitDomDocument+Mutable.h"
 
 #import "SVGDocument.h"
 #import "SVGDocument_Mutable.h"
