@@ -108,7 +108,8 @@ static NSMutableDictionary* globalSVGKImageCache;
 
 + (SVGKImage *)imageNamed:(NSString *)name inBundle:(NSBundle *)bundle
 {
-     return [self imageNamed:name inBundle:[NSBundle mainBundle] withCacheKey:@""];
+    // was always using [NSBundle mainBundle], ignoring passed in bundle parameter
+     return [self imageNamed:name inBundle:bundle withCacheKey:@""];
 }
 
 + (SVGKImage *)imageNamed:(NSString *)name inBundle:(NSBundle *)bundle withCacheKey:(NSString *)key
